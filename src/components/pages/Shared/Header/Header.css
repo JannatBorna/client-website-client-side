@@ -1,0 +1,39 @@
+.header_section {
+    background-image: url("../../../Images/background/header-background.png");
+    /* background-repeat: no-repeat; */
+}
+
+
+.header_color {
+    background: rgb(39, 114, 39) !important;
+    color: rgb(39, 114, 39) !important;
+}
+
+
+.header_image {
+    width: 150px;
+}
+
+.fa-circle-phone {
+    color: black;
+}
+
+.navbar_text {
+    margin-left: 400px;
+}
+
+.search_bar {
+    margin-right: -70px;
+}
+
+#search_input {
+    width: 400px;
+}
+
+.search_button {
+    background-color: rgb(39, 114, 39) !important;
+    width: 40%;
+    color: white !important;
+    border-radius: 5px;
+
+}
