@@ -1,0 +1,43 @@
+.footer_color {
+    background: rgb(39, 114, 39) !important;
+    color: rgb(39, 114, 39) !important;
+}
+
+.footer_text {
+    color: rgb(39, 114, 39) !important;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+
+.footer_meddleColor {
+    background: rgb(29, 155, 29) !important;
+    color: rgb(29, 155, 29) !important;
+}
+
+.account_visa {
+    width: 3%;
+}
+
+.account_mastercard {
+    width: 6%;
+}
+
+.account_american {
+    width: 5%;
+}
+
+.account_dutch {
+    width: 5%;
+}
+
+.account_bKash {
+    width: 7%;
+}
+
+.account_upai {
+    width: 3.5%;
+}
+
+.account_nogot {
+    width: 7%;
+}

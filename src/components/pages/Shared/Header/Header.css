@@ -1,17 +1,21 @@
 .header_section {
     background-image: url("../../../Images/background/header-background.png");
     /* background-repeat: no-repeat; */
+    /* border: 1px solid black; */
+    height: 140px;
 }
 
 
 .header_color {
     background: rgb(39, 114, 39) !important;
     color: rgb(39, 114, 39) !important;
+    /* width: 190%; */
 }
 
 
 .header_image {
     width: 150px;
+    /* margin-bottom: -30px; */
 }
 
 .fa-circle-phone {
@@ -20,6 +24,9 @@
 
 .navbar_text {
     margin-left: 400px;
+    font-size: 16px;
+    /* margin-bottom: -90px;
+    border: 1px solid black; */
 }
 
 .search_bar {
