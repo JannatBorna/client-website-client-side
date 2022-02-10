@@ -5,11 +5,32 @@
     height: 140px;
 }
 
+#basic-nav-dropdown {
+    color: black !important;
+}
+
+#basic-nav-dropdown::after {
+    display: none;
+}
 
 .header_color {
     background: rgb(39, 114, 39) !important;
     color: rgb(39, 114, 39) !important;
     /* width: 190%; */
+}
+
+.dropdown_section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-left: -170px;
+    width: 850px;
+    height: 447px;
+}
+
+.navDropdown_item {
+    background-color: white !important;
+    height: 455px;
 }
 
 
@@ -28,6 +49,17 @@
     /* margin-bottom: -90px;
     border: 1px solid black; */
 }
+
+.navbar_item:hover {
+    border-bottom: 4px solid rgb(27, 133, 27);
+    color: rgb(27, 133, 27) !important;
+}
+
+#basic-nav-dropdown:hover {
+    border-bottom: 3px solid rgb(39, 114, 39);
+    color: rgb(27, 133, 27) !important;
+}
+
 
 .search_bar {
     margin-right: -70px;
