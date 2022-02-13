@@ -1,29 +1,28 @@
 import React from 'react';
 import { Container, Navbar, NavDropdown, Nav } from 'react-bootstrap';
 import logo from '../../../Images/logo/Logo.png';
+import background from '../../../Images/background/header-background.png';
 import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-// import { faCirclePhone } from '@fortawesome/free-solid-svg-icons';
+import { faAngleRight, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import './Header.css'
 
 const Header = () => {
 return (
-    <div fixed="top">
+    <div>
         <div>
             <div className='header_color'>---</div>
-                {/* <img  src={back} alt=""/>  */}
-            <div className="header_section">
-                <div className='text-end mx-5'>  <span>+8801875601033</span> <br /> <span>+8801712726632</span>
-                </div>
+                
+             <div className="header_section" >
+                <div className='text-end mx-5 my-2' collapseOnSelect expand="lg" bg="white" variant="dark">
+                            <FontAwesomeIcon className='call_logo' icon={faPhoneVolume} /> <span>+8801875601033</span> <br /> <span>+8801712726632</span>
+                        </div>
+                    </div>
 
-
-
-                <div>
-                    <Navbar collapseOnSelect expand="lg" bg="white" variant="dark" >
+   {/*style={{ backgroundImage: `url(${background})`, backgroundSize: "contain", height: "117px", marginTop: "-10px" }}*/}          <Navbar collapseOnSelect expand="lg" bg="white" variant="dark"  className="navbar_container">  
                         <Container>
                         <Navbar.Brand href="#home">
-                            <img className="header_image" src={logo} alt="" />
+                            <img className="header_image my-5" src={logo} alt="" />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav" >
@@ -78,8 +77,8 @@ return (
                                     </NavDropdown>
 
                                        
-
-                                    <Nav.Link as={HashLink} to="/aboutUs#aboutUs" className="text-dark navbar_item">AboutUs</Nav.Link>
+                                    {/*<Link className='text-black ms-4 text-decoration-none' to='/about'>About-Us</Link>*/}
+                                     <Nav.Link as={HashLink} to="/aboutUs#aboutUs" className="text-dark navbar_item">AboutUs</Nav.Link> 
                                     <Nav.Link as={HashLink} to="/ourTeam#ourTeam" className="text-dark navbar_item">OurTeam</Nav.Link>
                                     <Nav.Link as={HashLink} to="/gallery#gallery" className="text-dark navbar_item">Gallery</Nav.Link>
                                     <Nav.Link as={HashLink} to="/contactUs#contactUs" className="text-dark navbar_item">ContactUs</Nav.Link>
@@ -93,10 +92,11 @@ return (
                     </Navbar.Collapse>
                 </Container>
                 </Navbar>
-             </div> 
+             </div>
+             {/* </div>  */}
             </div>
-        </div>
-    </div>
+        
+    // </div>
     );
 };
 

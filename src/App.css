@@ -2,7 +2,10 @@
   text-align: center;
   overflow: hidden;
   scroll-behavior: none;
+  cursor: url(cursor1.png);
 }
+
+
 
 .App-logo {
   height: 40vmin;

@@ -1,0 +1,24 @@
+.about_text {
+    color: rgb(23, 134, 29) !important;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: sans-serif;
+}
+
+.about_section {
+    margin-top: 90px;
+}
+
+.about_text3 {
+    color: rgb(56, 168, 153) !important;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: sans-serif;
+    color: rgb(154, 157, 160);
+}
+
+.about_image{
+    margin-top: -20px;
+    width: 80%;
+    /* border: 1px solid black; */
+}
