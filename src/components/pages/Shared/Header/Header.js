@@ -13,13 +13,13 @@ return (
         <div>
             <div className='header_color'>---</div>
                 
-             <div className="header_section" >
+            <div className="header_section">
                 <div className='text-end mx-5 my-2' collapseOnSelect expand="lg" bg="white" variant="dark">
                             <FontAwesomeIcon className='call_logo' icon={faPhoneVolume} /> <span>+8801875601033</span> <br /> <span>+8801712726632</span>
                         </div>
                     </div>
 
-   {/*style={{ backgroundImage: `url(${background})`, backgroundSize: "contain", height: "117px", marginTop: "-10px" }}*/}          <Navbar collapseOnSelect expand="lg" bg="white" variant="dark"  className="navbar_container">  
+   {/* style={{ backgroundImage: `url(${background})`, backgroundSize: "contain", height: "117px", marginTop: "-10px" }}   */}        <Navbar collapseOnSelect expand="lg" bg="white" variant="dark"  className="navbar_container">  
                         <Container>
                         <Navbar.Brand href="#home">
                             <img className="header_image my-5" src={logo} alt="" />
