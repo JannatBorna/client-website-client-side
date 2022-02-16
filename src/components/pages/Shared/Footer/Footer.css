@@ -6,7 +6,7 @@
 .footer_text {
     color: rgb(39, 114, 39) !important;
     font-weight: 600;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 .footer_meddleColor {
@@ -16,28 +16,35 @@
 
 .account_visa {
     width: 3%;
+    cursor: pointer;
 }
 
 .account_mastercard {
     width: 6%;
+    cursor: pointer;
 }
 
 .account_american {
     width: 5%;
+    cursor: pointer;
 }
 
 .account_dutch {
     width: 5%;
+    cursor: pointer;
 }
 
 .account_bKash {
     width: 7%;
+    cursor: pointer;
 }
 
 .account_upai {
     width: 3.5%;
+    cursor: pointer;
 }
 
 .account_nogot {
     width: 7%;
+    cursor: pointer;
 }

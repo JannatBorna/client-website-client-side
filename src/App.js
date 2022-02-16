@@ -9,6 +9,7 @@ import Header from './components/pages/Shared/Header/Header';
 import Banner from './components/pages/Banner/Banner';
 import Footer from './components/pages/Shared/Footer/Footer';
 import AboutUs from './components/pages/AboutUs/AboutUs';
+import Package from './components/pages/Package/Package';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/banner" element={<Banner />} />  
           <Route path="/aboutUs" element={<AboutUs />} /> 
-       
+           
+          <Route path="/package" element={<Package />} /> 
           
         </Routes>
         <Footer></Footer>

@@ -35,7 +35,7 @@ return (
                                             <div className='navDropdown_item'>
                                                 <p className='mx-5 my-3'> PACKAGES</p>
                                                 <NavDropdown.Divider />
-                                                <NavDropdown.Item className='mx-5 my-2' href=""><FontAwesomeIcon icon={faAngleRight} /> Regular Package</NavDropdown.Item>
+                                                <NavDropdown.Item className='mx-5 my-2' href="/package"><FontAwesomeIcon icon={faAngleRight} /> Regular Package</NavDropdown.Item>
                                                 <NavDropdown.Item className='mx-5 my-2' href=""><FontAwesomeIcon icon={faAngleRight} />  Group Package</NavDropdown.Item>
                                                 <NavDropdown.Item className='mx-5 my-2' href=""><FontAwesomeIcon icon={faAngleRight} />  Eid Package</NavDropdown.Item>
                                                 <NavDropdown.Item className='mx-5 my-2' href=""><FontAwesomeIcon icon={faAngleRight} /> Umrah</NavDropdown.Item>

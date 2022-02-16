@@ -1,0 +1,32 @@
+.packages_section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+
+.packages_sectionTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card_five {
+    margin-left: 380px;
+}
+
+.card_six {
+    margin-left: 50px;
+}
+
+.package_button {
+    width: 210px;
+    height: 34px;
+    background-color: rgb(39, 114, 39) !important;
+    margin-top: -50px;
+    border: 1px solid rgb(39, 114, 39);
+}
+
+.package_text {
+    color: rgb(39, 114, 39) !important;
+    font-family: serif;
+}
