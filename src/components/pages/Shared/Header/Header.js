@@ -59,7 +59,7 @@ return (
                                             <div className='navDropdown_item'>
                                                 <p className='my-3'> AIR TICKETS</p>
                                                 <NavDropdown.Divider />
-                                                <NavDropdown.Item className='my-2' href=""><FontAwesomeIcon icon={faAngleRight} /> Domestic</NavDropdown.Item>
+                                        <NavDropdown.Item className='my-2' href="/airTickets"><FontAwesomeIcon icon={faAngleRight} /> Domestic</NavDropdown.Item>
                                                 <NavDropdown.Item className='my-2' href=""><FontAwesomeIcon icon={faAngleRight} /> Indian Domestic</NavDropdown.Item>
                                                 <NavDropdown.Item className='my-2' href=""><FontAwesomeIcon icon={faAngleRight} /> International</NavDropdown.Item>
                                                 <NavDropdown.Item className='my-2' href=""><FontAwesomeIcon icon={faAngleRight} /> Special</NavDropdown.Item>
