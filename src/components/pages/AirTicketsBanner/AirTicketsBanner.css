@@ -1,0 +1,20 @@
+.airBanner_section {
+    margin: 10px;
+    padding: 10px;
+}
+
+.airBanner_text {
+    margin-top: 30px;
+    font-size: 35px;
+    text-shadow: 2px 2px #272626;
+    margin-left: 820px;
+}
+
+.airBanner_image {
+    height: 610px;
+}
+
+.airBannerGo_text {
+    font-size: 45px;
+   
+}

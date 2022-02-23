@@ -7,8 +7,8 @@ import picture3 from '../../Images/package/Eid Packages.jpg';
 import picture4 from '../../Images/package/Group Packages.jpg';
 import picture5 from '../../Images/package/Medical Packages.jpg';
 import picture6 from '../../Images/package/Umrah-Hajj-packages.jpg';
+import PackageBanner from './../PackageBanner/PackageBanner';
 import './Package.css'
-import PackageBanner from './PackageBanner';
 
 const Package = () => {
     return (
