@@ -1,142 +1,128 @@
-.packages_section {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
-}
-
-.packages_sectionTwo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-/*.air_card_five {
-    margin-left: 380px;
-}
-
-.air_card_six {
-    margin-left: 50px;
-}
-
-.package_button {
-    width: 210px;
-    height: 34px;
-    background-color: rgb(39, 114, 39) !important;
-    margin-top: -50px;
-    border: 1px solid rgb(39, 114, 39);
-}
-
-.package_text {
-    color: rgb(39, 114, 39) !important;
-    font-family: serif;
-} */
-
-
-/* body {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    background: #250008;
-    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.ariHeader_text {
+    color: rgb(30, 165, 98) !important;
+    font-size: 40px;
+    font-family:serif;
+
+}
+
+
+
+/* html {
+    font-size: 62.5%;
 } */
-/* ................................ */
 
-.air_card {
-    position: absolute;
-    /* top: 50%;*/
-    left: 30%;
-    /* transform: translate(-50%, -50%); */
-    width: 360px;
-    height: 400px;
-    background: #000;
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.air_card .air_image {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.air_card .air_image img {
-    width: 100%;
-    transition: .5s;
+.container .box {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    margin: 4rem;
 }
 
-.air_card:hover .air_image img {
-    opacity: .5;
-    transform: translateX(30%);
-    /*100%*/
+.container .box:hover .imgBox {
+    transform: translate(-3.5rem, -3.5rem);
 }
 
-.air_card .air_details {
+.container .box:hover .content {
+    transform: translate(3.5rem, 3.5rem);
+}
+
+.imgBox {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;
-    /*100%*/
+    width: 100%;
     height: 100%;
-    background: #ffc107;
-    transition: .5s;
-    transform-origin: left;
-    transform: perspective(2000px) rotateY(-90deg);
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
 }
 
-.air_card:hover .air_details {
-    transform: perspective(2000px) rotateY(0deg);
+.imgBox img {
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    resize: both;
 }
 
-.air_card .air_details .air_center {
-    padding: 20px;
-    text-align: center;
-    background: #fff;
+.content {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.air_card .air_details .air_center h1 {
-    margin: 0;
-    padding: 0;
-    color: #ff3636;
-    line-height: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.air_card .air_details .air_center h1 span {
-    font-size: 14px;
-    color: #262626;
-
-}
-
-.air_card .air_details .air_center p {
-    margin: 10px 0;
-    padding: 0;
-    color: #262626;
-}
-
-.air_card .air_details .air_center ul {
-    margin: 10px auto 0;
-    padding: 0;
-    display: table;
-}
-
-.air_card .air_details .air_center ul li {
-    list-style: none;
-    margin: 0 5px;
-    float: left;
-}
-
-.air_card .air_details .air_center ul li a {
-    display: block;
-    background: #262626;
-    color: #fff;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 174, 174);
+    z-index: 1;
+    align-items: flex-end;
     text-align: center;
-    transform: .5s;
+    transition: 0.5s ease-in-out;
 }
 
-.air_card .air_details .air_center ul li a:hover {
-    background: #ff3636;
+.content h2 {
+    display: block;
+    font-size: 2rem;
+    color: #111;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 1px;
 }
+
+.content span {
+    color: #555;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.air_button {
+    background-color: rgb(197, 143, 27) !important;
+    width: 58%;
+    height: 40px;
+    border: 1px solid rgb(197, 143, 27) !important;
+    color: #111 !important;
+    font-size: 18px;
+    font-family:serif;
+}
+
+
+
+@media (max-width: 600px) {
+    .container .box:hover .content {
+        transform: translate(0, 3.5rem);
+    }
+
+    .container .box:hover .imgBox {
+        transform: translate(0, -3.5rem);
+    }
+}
+
+/*# sourceMappingURL=main.css.map */

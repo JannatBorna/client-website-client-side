@@ -16,7 +16,7 @@ const AboutUs = () => {
             }} />
             
             <div>
-                <img className='about_image' src={about} alt="" />
+                <img className='about_image my-3' src={about} alt="" />
             </div>
             <Container style={{ backgroundImage: `url(${background})`, backgroundSize: "contain", height: "487px", marginTop: "-70px" }}>
                 <div className='about_section'>
